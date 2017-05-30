@@ -1,0 +1,7 @@
+@mixin background-image ( $color, $height:120px) {
+    background-color:($color);
+    background-position:center center;
+    background-size:cover;
+    height:($height);
+}
+

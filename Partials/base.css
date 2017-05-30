@@ -1,0 +1,356 @@
+html,
+.cover,
+body {
+  height: 100%; }
+
+body {
+  text-align: center;
+  background-color: #FFDF00 !important;
+  height: 100%; }
+
+.brand {
+  font-size: 34px; }
+
+/* Intro Section */
+.title_style {
+  color: #000000;
+  font-size: 2.5em;
+  font-family: cookie;
+  position: relative;
+  top: 75px; }
+
+header {
+  position: relative;
+  top: 50px;
+  background: url("../Images/dove2.jpg") top left no-repeat;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  height: 300px;
+  padding: 0 20%;
+  box-shadow: inset 0 0 100px #000; }
+
+@media (min-width: 775px) {
+  header {
+    width: 100%;
+    height: 500px !important; }
+
+  .title_style {
+    top: 90px;
+    font-size: 3em; } }
+@media (min-width: 990px) {
+  header {
+    width: 100%;
+    height: 700px !important; }
+
+  .title_style {
+    top: 150px;
+    font-size: 4.5em; } }
+@media (min-width: 1200px) {
+  header {
+    width: 100%; }
+
+  .title_style {
+    font-size: 4.5em; } }
+blockquote {
+  color: #FFFFFF;
+  border: none !important;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-size: 32px !important;
+  font-style: italic;
+  font-family: Georgia, Times, serif; }
+
+cite {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 20px; }
+
+section {
+  padding: 50px; }
+
+#intro {
+  background: #292828;
+  margin: 1px 0;
+  position: relative;
+  top: 20px; }
+
+/* Being Christ Centered */
+#beingChrist_ {
+  background: #FFDF00; }
+
+h2,
+h3 {
+  color: #B34BFF !important;
+  margin: 25px 0 10px 0;
+  padding: 5px;
+  text-align: center; }
+
+#centered-div {
+  display: table;
+  width: 100%;
+  margin: 30px 0;
+  padding: 0;
+  box-shadow: inset 0 0 100px #000; }
+
+.contentText {
+  color: #292828;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  line-height: 1.5;
+  padding: 10px;
+  display: table-cell;
+  width: 100%; }
+
+.contentText h2 {
+  margin-top: 10px; }
+
+#image {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 5px;
+  background: url("../Images/black_background.jpg") top left no-repeat;
+  display: table;
+  background-size: cover;
+  padding: 0 15%; }
+
+img#img1 {
+  box-shadow: inset 0 0 100px #000; }
+
+img#img2 {
+  display: none;
+  box-shadow: inset 0 0 100px #000; }
+
+img#img3 {
+  display: none;
+  box-shadow: inset 0 0 100px #000; }
+
+@media (min-width: 1145px) {
+  img#img1 {
+    display: inline;
+    position: relative;
+    left: -45%; }
+
+  img#img2 {
+    display: inline;
+    position: relative;
+    left: 43%;
+    top: -300px; }
+
+  img#img3 {
+    display: inline;
+    position: absolute;
+    left: 37%;
+    top: 172%; } }
+@media (min-width: 1215px) {
+  img#img1 {
+    display: inline;
+    position: relative;
+    left: -21%;
+    bottom: 0; }
+
+  img#img2 {
+    display: inline;
+    position: relative;
+    left: 20%;
+    top: 0; }
+
+  img#img3 {
+    display: inline;
+    position: absolute;
+    left: 37%;
+    top: 167%; } }
+/* Sermon */
+#sermon {
+  position: relative;
+  top: -50px; }
+
+#sermon_heading {
+  color: #B34BFF !important;
+  padding: 5px; }
+
+#sermon p {
+  font-weight: bold;
+  font-size: 18px; }
+
+#verse {
+  font-size: 24px !important;
+  color: #292828;
+  position: relative; }
+
+span {
+  font-size: 18px; }
+
+#sermon-link {
+  color: #CC63FF !important;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 22px;
+  position: relative;
+  top: -15px; }
+
+#sermon-link:hover {
+  color: #CC63FF !important;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px #555; }
+
+/* Testimonies */
+#testimonies {
+  font-size: 26px; }
+
+#testimonies a {
+  color: #CC63FF !important;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 30px; }
+
+#testimonies a:hover {
+  color: #CC63FF !important;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px #555; }
+
+#experience {
+  background: #333 url("../Images/sky.jpg") top left no-repeat;
+  background-size: cover;
+  width: 835px;
+  height: 250px;
+  display: table;
+  padding: 0 20%;
+  position: relative;
+  right: 25%;
+  box-shadow: inset 0 0 100px #000; }
+
+#experience p {
+  font-family: Times, Georgia, serif;
+  font-style: italic;
+  font-size: 20px;
+  position: relative;
+  top: 40px; }
+
+@media (min-width: 775px) {
+  #experience {
+    width: 1030px;
+    height: 330px;
+    right: 25%; }
+
+  #experience p {
+    font-size: 24px;
+    top: 40px; } }
+@media (min-width: 990px) {
+  #experience {
+    width: 1302px;
+    height: 430px;
+    right: 25%; }
+
+  #experience p {
+    font-size: 30px;
+    top: 40px; } }
+@media (min-width: 1200px) {
+  #experience {
+    width: 1455px;
+    height: 525px;
+    right: 15%; }
+
+  #experience p {
+    top: 70px;
+    font-size: 30px; } }
+/* Prayer Request */
+#prayer {
+  background: #808080;
+  padding: 40px; }
+
+#prayer_request label {
+  margin: 25px auto;
+  font-size: 16px; }
+
+#prayer cite {
+  font-size: 18px; }
+
+#email-validation {
+  display: none;
+  background: #292828;
+  text-align: center;
+  font-family: Dosis;
+  font-size: 20px;
+  font-weight: bold; }
+
+#success {
+  display: none;
+  color: white; }
+
+#failed {
+  display: none;
+  color: #f06060; }
+
+/* Media */
+div .media img {
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  margin: 5px; }
+
+/* About Us */
+#about {
+  background: url("../Images/black_background.jpg") top left no-repeat;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  padding: 20px 10%;
+  box-shadow: inset 0 0 100px #000; }
+
+h4 {
+  color: #fbfafa;
+  font-size: 20px; }
+
+.about-page {
+  padding: 13px; }
+
+#about a {
+  color: #CC63FF !important; }
+
+#about a:hover {
+  color: #CC63FF !important;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px #555; }
+
+#about p {
+  color: #fbfafa;
+  font-size: 16px; }
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 2px;
+  background-color: #808080;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 10px; }
+
+.glyphicon-cog:before {
+  font-size: 30px !important;
+  text-decoration: underline; }
+
+.glyphicon-cog:hover {
+  color: #F0F8FF;
+  font-weight: bold; }
+
+#web-create {
+  color: #CC63FF;
+  position: relative;
+  top: -40px;
+  right: -135px; }
+
+/*# sourceMappingURL=base.css.map */

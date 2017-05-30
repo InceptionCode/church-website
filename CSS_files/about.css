@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter|Pacifico|Dosis|Indie+Flower|Cookie);
+body {
+  background-color: #FFDF00 !important;
+  height: 100%; }
+
+.container {
+  border: 10px solid #292828;
+  margin-top: 15px; }
+
+h1, h3, h4 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #CC63FF; }
+
+p {
+  font-family: Dosis;
+  font-size: 22px;
+  padding: 5px; }
+
+#go-back {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 22px; }
+
+span {
+  font-size: 20px;
+  color: #CC63FF; }
+
+a {
+  color: #CC63FF; }
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #CC63FF;
+  position: relative;
+  top: 2px; }
+
+li {
+  float: left;
+  margin-left: 40px;
+  list-style: none; }
+
+/*# sourceMappingURL=about.css.map */

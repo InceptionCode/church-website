@@ -1,0 +1,49 @@
+@import "../Partials/variables";
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter|Pacifico|Dosis|Indie+Flower|Cookie); 
+
+body{
+    background-color: $gold !important;
+    height: 100%;
+}
+
+.container{
+    border: 10px solid $light-black;
+    margin-top: 15px;
+}
+h1,h3,h4{
+    text-align: center;
+    margin-bottom: 15px;
+    color: $purple;
+}
+
+p{
+    font-family: Dosis;
+    font-size: 22px;
+    padding: 5px;
+}
+
+#go-back{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+span{
+    font-size: 20px;
+    color: $purple;
+}
+
+a {
+    color: $purple;
+} a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: $purple;
+    position: relative;
+    top: 2px;
+}
+li{
+    float: left;
+    margin-left: 40px; 
+    list-style: none;
+}

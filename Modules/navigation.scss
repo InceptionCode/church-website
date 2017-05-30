@@ -1,0 +1,153 @@
+  .navbar{
+   background: $gray !important;
+   margin-bottom: 0!important;
+   }
+   
+   @media (min-width: 768px){
+.navbar-header {
+    float: right !important;
+ }
+}
+
+.navbar-brand {
+    font-family: cookie;
+    font-size: 40px !important;
+    color: $ash-purple !important;
+    margin-top: 22px !important;
+    width: 117px;
+    height: 5px !important;
+    position: relative;
+    right: 700px;
+}
+
+.brand{
+ position:relative;
+ left: 25%;
+}
+
+@media (max-width:768px){
+.navbar-toggle{
+    cursor: pointer;
+    display: block !important;
+    width: 44px;
+    height: 38px;
+    float: left !important;
+    margin-top: 3px !important;
+    border: none;
+    background: $ash-gray !important;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    z-index: 1;
+  &:hover {
+    background: $black !important;
+  }
+ }
+}
+
+.collapsed{
+ .top-bar{
+  transform:rotate(0);
+ }
+ .middle-bar {
+  opacity: 1;
+ }
+ .bottom-bar{
+  transform:rotate(0);
+  
+ }
+}
+.nav{
+margin-bottom: 9px !important;
+}
+ 
+.nav-tabs{
+ border-bottom:0 !important;
+ position:relative;
+ left: -15%;
+}
+@media (max-width:760px){
+.nav-tabs li{
+   float: none;
+   display: block;
+   margin-top: 15px;
+   font-weight: bold;
+}
+ }
+.nav-tabs>li>a:hover {
+    border-color: $gray !important;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    border-top: solid 2px $white !important;
+    background-color: transparent !important;
+    font-weight: bolder !important;
+}
+
+.nav-tabs>li>a:active {
+ border-color:$gray !important;
+}
+
+.nav>li>a:active {
+ text-decoration:none;
+ border-top: solid 2px $white !important;
+}
+
+.nav-tabs>li>a:focus{
+ border-color:$gray !important;
+}
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent !important;
+    border-top: solid 2px white !important;
+}
+ @media (max-width:768px){
+.nav li a{
+    position: relative;
+    display: block;
+    width: 105px !important;
+    color:$black !important;
+}
+ } 
+ 
+ .nav li a{
+  color: $ash-purple !important;
+  display:inline !important;
+  font-size: 16px;
+ } 
+
+ .icon-bar{
+    width: 100%!important;
+    height: 2px!important;
+    background-color: $white!important;
+    display: block!important;
+    transition: all 500ms ease-in-out;
+ }
+ .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  } 
+  .middle-bar {
+    opacity: 0;
+  } 
+  
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+   @media (max-width:768px){  
+  .navbar-collapse{
+   position: relative;
+   left: -480px;
+   z-index: 0;
+   width: 300px;
+   padding: 38px;
+   border-right: 4px solid white;
+   transition: all 0.4s ease-in-out;
+   background-color: $theme-gray;
+  }
+  .in{
+   left: -190px;
+  }
+ }
